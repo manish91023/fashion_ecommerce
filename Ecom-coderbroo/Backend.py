@@ -10,9 +10,7 @@ CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})  # Assuming R
 
 
 # MongoDB credentials (hardcoded)
-username = quote_plus("manishgga091")
-password = quote_plus("9102326770manish")
-cluster_url = "cluster0.ufimslv.mongodb.net"
+
 
 # MongoDB connection string with database name
 connection_string = f"mongodb+srv://{username}:{password}@{cluster_url}/ecommerceNew?retryWrites=true&w=majority"
